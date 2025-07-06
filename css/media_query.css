@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-items {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    left: 0;
+    background-color: #a68d5790;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 30px;
+    /* display: none; */
+    transform: scale(0);
+    /* for animation */
+    transition: 0.5s;
+    /* transform: translateY(190%); */
+    /
+    /* transform-origin: right top; */
+  }
+  .show {
+    /* transform: translate(0); */
+    transform: scale(1);
+    /* display: block; */
+  }
+  .banner-content {
+    width: 100%;
+    background: #f7cb8a88;
+    padding-left: 40px;
+}
+}

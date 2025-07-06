@@ -1,0 +1,109 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Bodoni", "Edu", "NSW";
+}
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../photos/cake-16.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: #141e27;
+  text-decoration: none;
+  font-family: "Inter", "Public Sans", "Savate";
+}
+html {
+  scroll-behavior: smooth;
+  transition: all 0.5s ease-in-out;
+}
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: #faf1c3;
+  background: linear-gradient(
+      90deg,
+      rgba(250, 241, 195, 0.986) 10%,
+      rgba(247, 235, 176, 0.336) 45%
+    ),
+    url("../photos/cake21-min.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 20px;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  height: 80px;
+  background: #f0d9a7c7;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 999;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.banner-content {
+  width: 50%;
+  min-height: 75vh;
+  border: none;
+  /* background: #be9191; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 90px;
+  gap: 15px;
+}
+
+.btn-group {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 20px;
+  background: #bb943fc7;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.menu {
+  display: none;
+}
+
+section {
+  min-height: 100vh;
+  box-shadow: 2px 2px 4px rgb(212, 209, 209);
+  /* margin-top: 90px;
+  padding: 100px; */
+}

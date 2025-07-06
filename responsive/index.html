@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile First</title>
+</head>
+<style>
+    body {
+        padding: 20px;
+    }
+
+    .app {
+        background-color: pink;
+        padding: 20px;
+    }
+
+    /* Mobile first approved small to large */
+    @media screen and (min-width:576px) {
+        body {
+            padding: 30px;
+
+        }
+
+        .app {
+            background-color: lightskyblue;
+            padding: 30px;
+        }
+
+    }
+
+    @media screen and (min-width:768px) {
+        body {
+            padding: 40px;
+
+        }
+
+        .app {
+            background-color: lightgreen;
+            padding: 30px;
+            /* display: none; */
+
+        }
+
+    }
+
+    @media screen and (min-width:992px) {
+        body {
+            padding: 50px;
+
+        }
+
+        .app {
+            background-color: lightcoral;
+            padding: 50px;
+
+
+        }
+
+    }
+
+    @media screen and (min-width:1200px) {
+        body {
+            padding: 60px;
+
+        }
+
+        .app {
+            background-color: lightslategray;
+            padding: 60px;
+
+
+        }
+
+    }
+
+
+
+
+
+
+
+    /* desktop first  ************************************************************************/
+    @media screen and(max-width:1200px) {
+        body {
+            padding: 40px;
+        }
+
+        .app {
+            background: lightgreen;
+            padding: 40px;
+        }
+
+    }
+
+    @media screen and(max-width:998px) {
+        body {
+            padding: 30px;
+        }
+
+        .app {
+            background: lightslategray;
+            padding: 30px;
+        }
+
+    }
+
+    @media screen and(max-width:768px) {
+        body {
+            padding: 20px;
+        }
+
+        .app {
+            background: rgb(178, 43, 202);
+            padding: 20px;
+        }
+
+    }
+
+    @media screen and(max-width:576px) {
+        body {
+            padding: 10px;
+        }
+
+        .app {
+            background: rgb(140, 154, 55);
+            padding: 10px;
+        }
+
+    }
+</style>
+
+<body>
+    <div class="app">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis error
+            itaque maxime ut qui laboriosam autem, fugit ipsa fuga accusantium
+            voluptatibus cupiditate vitae repellendus quia possimus cum ab
+            explicabo, consequuntur totam, non deleniti eius? In esse velit placeat
+            ullam totam voluptas saepe cum repudiandae corporis beatae perspiciatis
+            nostrum eum, mollitia nihil quas facilis repellendus consectetur,
+            incidunt itaque quibusdam quod animi id tenetur consequuntur! Nulla
+            libero, quae beatae repellat fugit deserunt at nihil temporibus aliquam
+            ut, minima, id impedit odio quibusdam quis iure placeat! Repudiandae
+            magni sunt voluptatibus, nesciunt fugiat, neque fuga, consequuntur
+            delectus quos expedita natus mollitia et architecto unde.
+        </p>
+    </div>
+</body>
+
+</html>
