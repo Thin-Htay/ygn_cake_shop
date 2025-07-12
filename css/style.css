@@ -100,7 +100,9 @@ nav {
 .menu {
   display: none;
 }
-
+#menu {
+  background-color: #d1c979;
+}
 /* sections */
 
 section {
