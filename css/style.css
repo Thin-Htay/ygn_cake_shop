@@ -101,7 +101,7 @@ nav {
   display: none;
 }
 #menu {
-  background-color: #bbb680;
+  background-color: rgba(105, 105, 57, 0.314);
 }
 /* sections */
 
@@ -160,7 +160,9 @@ section {
   justify-content: center;
   align-items: center;
 }
-
+/* #testimonials {
+  background-color: rgba(111, 129, 134, 0.126);
+} */
 /* testimonials section */
 .testimonials {
   width: 100%;
